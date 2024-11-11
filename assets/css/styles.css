@@ -41,3 +41,11 @@ body {
 #about > div > h1 {
     text-align: center;
 }
+
+/* Media Query */
+
+@media (min-width: 1200px) {
+    #help-box {
+        color: #ffffff;
+    }
+}
