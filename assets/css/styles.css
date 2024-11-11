@@ -44,6 +44,12 @@ body {
 
 /* Animation */
 
+#navbar {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
 #help-box {
     opacity: 0;
     animation: fadeIn 1s ease-in-out;
@@ -53,15 +59,15 @@ body {
 
 #help-box-2 {
     opacity: 0;
-    animation: fadeIn 1.5s ease-in-out;
-    animation-delay: 3.5s;
+    animation: fadeIn 1s ease-in-out;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 
 #about {
     opacity: 0;
     animation: fadeIn 1.5s ease-in-out;
-    animation-delay: 6s;
+    animation-delay: 3.5s;
     animation-fill-mode: forwards;
 }
 
@@ -103,7 +109,7 @@ body {
 }
 
 #footer > ul > li > img {
-    width: 15%;
+    width: 10%;
 }
 
 
