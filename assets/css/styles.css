@@ -6,8 +6,6 @@ body {
     background-color: #050c16;
 }
 
-
-
 /* Hero Section */
 
 .glass{
@@ -35,12 +33,43 @@ body {
 
 #about > div {
     color: #ffffff;
-    margin-top: 6rem;
+    margin: 5rem;
+    text-align: center;
 }
 
 #about > div > h1 {
     text-align: center;
 }
+
+/* Footer */
+
+#footer {
+    width: 100%;;
+    background-color: #394a59;
+    color: #f2a649;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: #f2a649 2px solid;
+} 
+
+#footer > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+    justify-self: center;
+}
+
+#social-media-links {
+    align-self: center;
+    align-items: center;
+}
+
+#footer > ul > li > img {
+    width: 15%;
+}
+
 
 /* Media Query */
 
