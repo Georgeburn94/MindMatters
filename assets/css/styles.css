@@ -34,6 +34,7 @@ body {
     background-image: url("../images/bg-image.jpg");
     width: 100vw;
     height: 100vh;
+    max-width: 100%;
     background-size: cover;
     position: absolute;
     left: 0;
@@ -44,14 +45,17 @@ body {
 
 .bg-image-2 {
     background-image: url("../images/katja-stehle-kf3bE58lbSI-unsplash\ \(1\).jpg");
+    max-width: 100%;
+    max-height: 100%;
     width: 100vw;
-    height: 100vh;
+    height: 300vh;
     background-size: cover;
     position: absolute;
     left: 0;
     top: 0;
     z-index: -1 ;
     background-position: 25% 100%;
+    background-attachment: fixed;
 }
 
 
@@ -61,6 +65,7 @@ body {
     opacity: 0;
     animation: fadeIn 0.5s ease-in-out;
     animation-fill-mode: forwards;
+    border-bottom: #f2a649 1px solid;
 }
 
 #help-box {
@@ -159,6 +164,8 @@ body {
     justify-content: space-around;
     width: 80%;
     justify-self: center;
+    margin: 0;
+    padding: 0;
 }
 
 #social-media-links {
@@ -167,8 +174,9 @@ body {
 }
 
 #footer > ul > li > img {
-    min-width: 50px;
-    width: 15%;
+    min-width: 40px;
+    max-width: 70px;
+    width: 20%;
 }
 
 
