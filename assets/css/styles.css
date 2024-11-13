@@ -6,15 +6,21 @@ body {
     background-color: #050c16;
 }
 
+p {
+    font-weight: 600;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
+}
+
 /* Navbar */
 #navbar li {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight: bold;
-}
+
 
 /* Keyframes */
 
@@ -54,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .bg-image-2 {
-    background-image: url("../images/katja-stehle-kf3bE58lbSI-unsplash\ \(1\).jpg");
+    background-image: url("../images/sand-bg.jpg");
     max-width: 100%;
     max-height: 100%;
     width: 100vw;
@@ -91,7 +97,6 @@ h1,h2,h3,h4,h5,h6 {
     animation: fadeIn 0.5s ease-in-out;
     animation-fill-mode: forwards;
     border-bottom: #f2a649 1px solid;
-    max-height: 81px;
 }
 
 #help-box {
