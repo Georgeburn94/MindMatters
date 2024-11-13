@@ -1,9 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Datum&display=swap');
+
 
 /* General Styles */
 body {
-    font-family: sans-serif;
+    font-family: "Gowun Dodum", serif;
     background-color: #050c16;
+}
+
+/* Navbar */
+#navbar li {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: bold;
 }
 
 /* Keyframes */
@@ -81,6 +91,7 @@ body {
     animation: fadeIn 0.5s ease-in-out;
     animation-fill-mode: forwards;
     border-bottom: #f2a649 1px solid;
+    max-height: 81px;
 }
 
 #help-box {
@@ -105,6 +116,27 @@ body {
 }
 
 #myths-box {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out;
+    animation-delay: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#myths-cards {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+#help-intro {
+    opacity: 0;
+    animation: fadeIn 0.7s ease-in-out;
+    animation-delay: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+#cardCarousel {
     opacity: 0;
     animation: fadeIn 0.7s ease-in-out;
     animation-delay: 1s;
