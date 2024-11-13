@@ -33,3 +33,8 @@ To run this project locally, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/georgeburn94/mindmatters.git
+
+## Wireframes
+
+<img src="assets/images/wireframe (1).jpg alt="wireframe">
+<img src="assets/images/wireframe (2).jpg alt="wireframe">
