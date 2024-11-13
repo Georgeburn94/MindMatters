@@ -3,7 +3,8 @@
 /* General Styles */
 body {
     font-family: "Gowun Dodum", serif;
-    background-color: #050c16;
+    background-color: #10130C;
+    color: #ffffff;
 }
 
 p {
@@ -13,6 +14,11 @@ p {
 h1,h2,h3,h4,h5,h6 {
     font-weight: bold;
 }
+
+/* Variables */
+
+:root {
+    --primary-color: #A8BDBF; }
 
 /* Navbar */
 #navbar li {
@@ -47,7 +53,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .bg-image {
-    background-image: url("../images/bg-image.jpg");
+    background-image: url("../images/tim-mossholder-hOVOEMrg9Tk-unsplash.jpg");
     width: 100vw;
     height: 100vh;
     max-width: 100%;
@@ -60,7 +66,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .bg-image-2 {
-    background-image: url("../images/sand-bg.jpg");
+    background-image: url("../images/tim-mossholder-hOVOEMrg9Tk-unsplash.jpg");
     max-width: 100%;
     max-height: 100%;
     width: 100vw;
@@ -75,7 +81,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .bg-image-3 {
-    background-image: url("../images/help-bg.jpg");
+    background-image: url("../images/tim-mossholder-hOVOEMrg9Tk-unsplash.jpg");
     max-width: 100%;
     max-height: 100%;
     width: 100vw;
@@ -96,7 +102,7 @@ h1,h2,h3,h4,h5,h6 {
     opacity: 0;
     animation: fadeIn 0.5s ease-in-out;
     animation-fill-mode: forwards;
-    border-bottom: #f2a649 1px solid;
+    border-bottom: var(--primary-color) 2px solid;
 }
 
 #help-box {
@@ -202,10 +208,12 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
+    
 }
 
 .card-body > * {
     max-width: 100%;
+    color: #ffffff;
 }
 
 #cardCarousel .card {
@@ -216,11 +224,11 @@ h1,h2,h3,h4,h5,h6 {
 
 #footer {
     width: 100%;
-    background-color: #394a59;
-    color: #f2a649;
+    background-color: #31403A;
+    color: var(--primary-color);
     text-align: center;
     padding: 2rem 0;
-    border-top: #f2a649 2px solid;
+    border-top: var(--primary-color) 2px solid;
     bottom: 0;
     left: 0;
 }
