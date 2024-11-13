@@ -152,6 +152,7 @@ h1,h2,h3,h4,h5,h6 {
     animation: fadeIn 0.7s ease-in-out;
     animation-delay: 1s;
     animation-fill-mode: forwards;
+    margin-bottom: 13rem;
 }
 
 /* About Section */
@@ -208,7 +209,7 @@ h1,h2,h3,h4,h5,h6 {
     max-width: 100%;
     object-fit: cover;
     border-radius: 20px 20px 0 0;
-    
+
 }
 
 .card-body > * {
