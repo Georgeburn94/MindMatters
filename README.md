@@ -26,4 +26,10 @@ MindMatters is a website dedicated to providing mental health resources, support
 
 
 ## Wireframes
-![wireframe of the homepage](assets/images/wireframe - homepage.png)
+![wireframe of the homepage](assets/images/wireframe_homepage.png)
+![wireframe of the myths page](assets/images/wireframe_myths.png)
+![wireframe of the help page](assets/images/wireframe_help.png)
+
+## Colour Scheme
+The colour scheme chosen was taken from one of the background images. It emphasises dark, muted shades of green. These colours are calming and associated with calm and relaxation, in keeping with the site's purpose and theme.
+
