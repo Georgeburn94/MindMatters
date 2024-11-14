@@ -41,4 +41,4 @@ The colour scheme chosen was taken from one of the background images. It emphasi
 Gowun Dodum from Google fonts was chosen for this project. It's a humanist sans-serif with a touch of hand movement. It's calming, works with the refined design aesthetic of the site, while remaining friendly.
 
 I chose to use different weights for headings instead of using including another busier, display typeface.
-![photograph of Gowun Dodum typeface](assets/images/Gowun_Dodum)
+![photograph of Gowun Dodum typeface](assets/images/Gowun_Dodum.png)
