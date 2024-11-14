@@ -6,7 +6,6 @@ MindMatters is a website dedicated to providing mental health resources, support
 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -14,10 +13,9 @@ MindMatters is a website dedicated to providing mental health resources, support
 
 ## Features
 
-- Comprehensive library of articles, videos, and guides on various mental health topics.
-- Interactive self-help tools like mood trackers and mindfulness exercises.
-- Responsive design for optimal viewing on different devices.
-- Easy navigation with a user-friendly interface.
+- Clean, simple design and gentle animation for a calming user experience
+- "Myth vs Truth" interactive section disspelling myths about mental health
+- Links to external websites
 
 ## Technologies Used
 
@@ -26,15 +24,6 @@ MindMatters is a website dedicated to providing mental health resources, support
 - Bootstrap 5
 - Google Fonts
 
-## Installation
-
-To run this project locally, follow these steps:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/georgeburn94/mindmatters.git
 
 ## Wireframes
 
-<img src="assets/images/wireframe (1).jpg alt="wireframe">
-<img src="assets/images/wireframe (2).jpg alt="wireframe">
