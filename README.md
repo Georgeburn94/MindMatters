@@ -30,6 +30,15 @@ MindMatters is a website dedicated to providing mental health resources, support
 ![wireframe of the myths page](assets/images/wireframe_myths.png)
 ![wireframe of the help page](assets/images/wireframe_help.png)
 
-## Colour Scheme
+## Design Choices
+
+### Colour Scheme
 The colour scheme chosen was taken from one of the background images. It emphasises dark, muted shades of green. These colours are calming and associated with calm and relaxation, in keeping with the site's purpose and theme.
 
+![colour theme extracted from background image](assets/images/AdobeColor-colour_theme.jpeg)
+
+### Typeface
+Gowun Dodum from Google fonts was chosen for this project. It's a humanist sans-serif with a touch of hand movement. It's calming, works with the refined design aesthetic of the site, while remaining friendly.
+
+I chose to use different weights for headings instead of using including another busier, display typeface.
+![photograph of Gowun Dodum typeface](assets/images/Gowun_Dodum)
