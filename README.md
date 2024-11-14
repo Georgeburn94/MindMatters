@@ -26,4 +26,4 @@ MindMatters is a website dedicated to providing mental health resources, support
 
 
 ## Wireframes
-!(assets/images/wireframe - homepage.png)
+![wireframe of the homepage](assets/images/wireframe - homepage.png)
